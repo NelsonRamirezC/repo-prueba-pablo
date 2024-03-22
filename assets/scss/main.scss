@@ -1,12 +1,12 @@
 // Required
-@import '../vendors/bootstrap-5.3.3/scss/functions';
-@import '../vendors/bootstrap-5.3.3/scss/variables';
-@import '../vendors/bootstrap-5.3.3/scss/variables-dark';
+@import '../vendors/bootstrap/scss/functions';
+@import '../vendors/bootstrap/scss/variables';
+@import '../vendors/bootstrap/scss/variables-dark';
 //1. abstracts
 @import 'abstracts/variables',
 'abstracts/custom_bootstrap';
 //2. vendor
-@import '../vendors/bootstrap-5.3.3/scss/bootstrap.scss';
+@import '../vendors/bootstrap/scss/bootstrap.scss';
 //3. base
 @import './base/base', './base/typography';
 //4. layout
